@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (too large for git)
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Data
+*.csv
+*.mat
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+data/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker/db_data/
+
+# Misc
+*.log
+.env
