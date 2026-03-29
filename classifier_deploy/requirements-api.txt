@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# Match training env (Colab): avoids torch.load / pickle issues with fastai exports
+torch==2.10.0+cpu
+torchvision==0.25.0+cpu
+fastai==2.8.7
+fastcore==1.12.26
+fasttransform==0.0.2
+fastdownload==0.0.7
+fastprogress==1.1.5
+plum-dispatch==2.7.1
+fastapi
+uvicorn
+python-multipart
+sqlalchemy>=2.0
+psycopg2-binary
+pydantic-settings
+ipython
