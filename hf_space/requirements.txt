@@ -1,0 +1,11 @@
+fastai==2.8.7
+fastcore==1.12.26
+fasttransform==0.0.2
+fastdownload==0.0.7
+fastprogress==1.1.5
+plum-dispatch==2.7.1
+ipython>=8.12.0
+streamlit==1.44.1
+pillow-avif-plugin>=1.4.0
+torch==2.10.0
+torchvision==0.25.0

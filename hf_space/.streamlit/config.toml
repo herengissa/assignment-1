@@ -1,0 +1,12 @@
+# Avoid Streamlit walking torch.* during reload detection (RuntimeError on torch.classes.__path__)
+[server]
+fileWatcherType = "none"
+# HF Spaces: iframe + cookie rules break file_uploader without this (403 AxiosError)
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#db2777"
+backgroundColor = "#fff5f7"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#500724"
+font = "sans serif"
